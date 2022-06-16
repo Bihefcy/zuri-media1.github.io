@@ -1,0 +1,301 @@
+html {
+    height: 600px;
+    width: 1440px;
+}
+body {
+    height: 600px;
+    width: 1440px;
+    margin: 0;
+    background-color: hsla(0, 100%, 74%, 0.755);
+    background-image: url('bg-intro-desktop.png')
+}
+.flex-container {
+    display: flex;
+    background-color: );
+    width: 1440px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 20%;
+
+}
+.flex-container > div {
+    width: 500px;
+    height: 450px;
+    margin: 0px;
+}
+h3 {
+    padding: 80px 40px 0px 30px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.grid-item1 p {
+    padding: 0px 40px 0px 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 
+}
+button {
+    width: 500px;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:   hsl(248, 32%, 49%);
+    border-bottom: 5px solid hsla(249, 28%, 38%, 0.503);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+form {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(144, 142, 142);
+}
+.field {
+    margin: 0 20px 20px 20px;
+}
+.field2 i {
+    position: absolute;
+}
+i#name-error.error-message {
+    display: block;
+    background-color: transparent;
+    text-align: right;
+    padding: 10px 10px 0 0px;
+    width: 50px;
+    margin: 0 0px 0 400px;
+}
+p#name-error.error-message {
+    text-align: right;
+    padding: 0 10px 0 0;
+    width: 455px;
+    height: 10px;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+input[type=submit] {
+    width: 460px;
+    padding: 0 0 0 0;
+    margin: 0 0px 15px 0;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=submit]:hover{
+    background-color: hsl(155, 55%, 79%);
+}
+input {
+    width: 435px;
+    height: 40px;
+    border-radius: 7px;
+    border-width: 3px;
+    padding: 0 0 0 20px;
+    background-color: ;
+    font-family: 'Poppins', sans-serif;
+}
+input:invalid::before {
+    display: none;
+    border-color: hsl(0, 100%, 74%);
+}
+
+.is-validated input:invalid,
+.is-validated:invalid ::before{
+    border-color: hsl(0, 100%, 74%);
+}
+.error-message {
+
+    background-color: white;
+    color: hsl(0, 100%, 74%);
+    text-align: left;
+}
+.error-message-highlighted {
+    background-color: white;
+    color: hsl(0, 100%, 74%);
+    text-align: ;
+}
+.error-message:first-child, input:invalid + .error-message, input:invalid + label + .error-message {
+    text-align: right;
+    width: 435px;
+    padding: 0 0 0 35px;
+}
+.is-validated > .error-message:first-child, .is-validated input:invalid + .error-message, .is invalidated input:invalid + label + .error-message, .is-validated:invalid + .error-message, .is-validated:invalid + label + .error-message{
+    text-align: right;
+    width: 435px;
+    padding: 0 0 0 35px;
+}
+.grid-item2 .field p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    color: rgb(137, 136, 136);
+    font-family: 'Poppins', sans-serif;
+
+}
+.grid-item2 .field p a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width:375px) {
+    html {
+        height: 900px;
+        width: 375px;
+    }
+    body {
+        height: 900px;
+        width: 375px;
+        margin: 0;
+        background-color: hsla(0, 100%, 74%, 0.755);
+        background-image: url('bg-intro-mobile.png')
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        background-color: );
+        width: 340px;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    
+    }
+    .flex-container > div {
+        width: 340px;
+        height: 300px;
+        margin: 20px;
+    }
+    h3 {
+        padding: 20px 40px 0px 30px;
+        font-size: 30px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .grid-item1 p {
+        padding: 0px 40px 0px 30px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: ;
+        text-align: center;
+        font-size: 15px;
+    }
+    button {
+        width: 340px;
+        text-align: center;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color:   hsl(248, 32%, 49%);
+        border-bottom: 5px solid hsla(249, 28%, 38%, 0.503);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .grid-item2 {
+        height: 600px;
+    }
+    form {
+        width: 340px;
+        height: 400px;
+        background-color: white;
+        padding: 20px 0 0 0;
+        margin: 20px 0 0 0;
+        border-radius: 10px;
+        border-bottom: 5px solid rgb(144, 142, 142);
+    }
+    .field {
+        margin: 0 20px 20px 20px;
+    }
+    .field2 i {
+        position: absolute;
+    }
+    i#name-error.error-message {
+        display: block;
+        background-color: transparent;
+        text-align: right;
+        padding: 10px 10px 0 0px;
+        width: 50px;
+        margin: 0 0px 0 250px;
+    }
+    p#name-error.error-message {
+        text-align: right;
+        padding: 0 10px 0 0;
+        width: 300px;
+        height: 10px;
+        font-size: 10px;
+        color: hsl(0, 100%, 74%);
+        font-weight: bold;
+    }
+    input[type=submit] {
+        width: 300px;
+        padding: 0 0 0 0;
+        margin: 0 0px 15px 0;
+        border: none;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    input[type=submit]:hover{
+        background-color: hsl(155, 55%, 79%);
+    }
+    input {
+        width: 280px;
+        height: 40px;
+        border-radius: 7px;
+        border-width: 3px;
+        padding: 0 0 0 20px;
+        background-color: ;
+        font-family: 'Poppins', sans-serif;
+    }
+    input:invalid::before {
+        display: none;
+        border-color: hsl(0, 100%, 74%);
+    }
+    
+    .is-validated input:invalid,
+    .is-validated:invalid ::before{
+        border-color: hsl(0, 100%, 74%);
+    }
+    .error-message {
+    
+        background-color: white;
+        color: hsl(0, 100%, 74%);
+        text-align: left;
+    }
+    .error-message-highlighted {
+        background-color: white;
+        color: hsl(0, 100%, 74%);
+        text-align: ;
+    }
+    .error-message:first-child, input:invalid + .error-message, input:invalid + label + .error-message {
+        text-align: right;
+        width: 435px;
+        padding: 0 0 0 35px;
+    }
+    .is-validated > .error-message:first-child, .is-validated input:invalid + .error-message, .is invalidated input:invalid + label + .error-message, .is-validated:invalid + .error-message, .is-validated:invalid + label + .error-message{
+        text-align: right;
+        width: 435px;
+        padding: 0 0 0 35px;
+    }
+    .grid-item2 .field p {
+        text-align: center;
+        font-size: 12px;
+        margin: 0px;
+        color: rgb(137, 136, 136);
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .grid-item2 .field p a {
+        text-decoration: none;
+        color: hsl(0, 100%, 74%);
+        font-family: 'Poppins', sans-serif;
+    }
+}
